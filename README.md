@@ -37,8 +37,7 @@ Note: if you choose to use only the second option, and try to use ssh example.co
 
 
 
+## FIXED by running following commands:
 
-I fixed this problem in my systems by running following commands:
-
-eval $(ssh-agent)
-ssh-add  ~/.ssh/id_rsa
+    eval $(ssh-agent)
+    ssh-add  ~/.ssh/id_rsa
